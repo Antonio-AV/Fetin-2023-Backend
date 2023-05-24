@@ -1,0 +1,387 @@
+{
+    "Criteria":[
+        {
+            "Criterion": "C1",
+            "Weight": 0.2,
+            "Alternatives":[
+                {
+                    "Name": "A",
+                    "Grades": {
+                        "Smaller": 6.3,
+                        "Medium": 6.4,
+                        "Bigger": 7.3
+                    }
+                },
+
+                {
+                    "Name": "B",
+                    "Grades": {
+                        "Smaller": 6.8,
+                        "Medium": 7.5,
+                        "Bigger": 8.1
+                    }
+                },
+
+                {
+                    "Name": "C",
+                    "Grades": {
+                        "Smaller": 5.2,
+                        "Medium": 5.9,
+                        "Bigger": 6.2
+                    }
+                },
+
+                {
+                    "Name": "D",
+                    "Grades": {
+                        "Smaller": 7.3,
+                        "Medium": 8,
+                        "Bigger": 8.9
+                    }
+                },
+
+                {
+                    "Name": "E",
+                    "Grades": {
+                        "Smaller": 6.2,
+                        "Medium": 6.8,
+                        "Bigger": 7.1
+                    }
+                },
+
+                {
+                    "Name": "F",
+                    "Grades": {
+                        "Smaller": 3.1,
+                        "Medium": 3.4,
+                        "Bigger": 3.7
+                    }
+                },
+
+                {
+                    "Name": "G",
+                    "Grades": {
+                        "Smaller": 4.2,
+                        "Medium": 4.4,
+                        "Bigger": 4.8
+                    }
+                },
+
+                {
+                    "Name": "H",
+                    "Grades": {
+                        "Smaller": 3.7,
+                        "Medium": 4,
+                        "Bigger": 4.4
+                    }
+                },
+
+                {
+                    "Name": "I",
+                    "Grades": {
+                        "Smaller": 9,
+                        "Medium": 9.2,
+                        "Bigger": 9.4
+                    }
+                },
+
+                {
+                    "Name": "J",
+                    "Grades": {
+                        "Smaller": 3.4,
+                        "Medium": 3.5,
+                        "Bigger": 3.6
+                    }
+                }
+            ]
+        },
+
+        {
+            "Criterion": "C2",
+            "Weight": 0.2,
+            "Alternatives":[
+                {
+                    "Name": "A",
+                    "Grades": {
+                        "Smaller": 5.2,
+                        "Medium": 5.9,
+                        "Bigger": 6.3
+                    }
+                },
+
+                {
+                    "Name": "B",
+                    "Grades": {
+                        "Smaller": 4.8,
+                        "Medium": 5,
+                        "Bigger": 5.9
+                    }
+                },
+
+                {
+                    "Name": "C",
+                    "Grades": {
+                        "Smaller": 7.6,
+                        "Medium": 8.1,
+                        "Bigger": 9
+                    }
+                },
+
+                {
+                    "Name": "D",
+                    "Grades": {
+                        "Smaller": 5.3,
+                        "Medium": 6,
+                        "Bigger": 6.4
+                    }
+                },
+
+                {
+                    "Name": "E",
+                    "Grades": {
+                        "Smaller": 5.4,
+                        "Medium": 6.3,
+                        "Bigger": 6.8
+                    }
+                },
+
+                {
+                    "Name": "F",
+                    "Grades": {
+                        "Smaller": 7.8,
+                        "Medium": 8.2,
+                        "Bigger": 8.5
+                    }
+                },
+
+                {
+                    "Name": "G",
+                    "Grades": {
+                        "Smaller": 5.1,
+                        "Medium": 5.5,
+                        "Bigger": 5.7
+                    }
+                },
+
+                {
+                    "Name": "H",
+                    "Grades": {
+                        "Smaller": 8.2,
+                        "Medium": 8.4,
+                        "Bigger": 8.8
+                    }
+                },
+
+                {
+                    "Name": "I",
+                    "Grades": {
+                        "Smaller": 6.7,
+                        "Medium": 7.1,
+                        "Bigger": 7.3
+                    }
+                },
+
+                {
+                    "Name": "J",
+                    "Grades": {
+                        "Smaller": 7.7,
+                        "Medium": 7.9,
+                        "Bigger": 8.4
+                    }
+                }
+            ]
+        },
+
+        {
+            "Criterion": "C3",
+            "Weight": 0.2,
+            "Alternatives":[
+                {
+                    "Name": "A",
+                    "Grades": {
+                        "Smaller": 4.3,
+                        "Medium": 5.7,
+                        "Bigger": 6.1
+                    }
+                },
+
+                {
+                    "Name": "B",
+                    "Grades": {
+                        "Smaller": 3.1,
+                        "Medium": 3.9,
+                        "Bigger": 4.5
+                    }
+                },
+
+                {
+                    "Name": "C",
+                    "Grades": {
+                        "Smaller": 6.3,
+                        "Medium": 7.1,
+                        "Bigger": 8
+                    }
+                },
+
+                {
+                    "Name": "D",
+                    "Grades": {
+                        "Smaller": 4.4,
+                        "Medium": 5.8,
+                        "Bigger": 6.2
+                    }
+                },
+
+                {
+                    "Name": "E",
+                    "Grades": {
+                        "Smaller": 4.6,
+                        "Medium": 5.9,
+                        "Bigger": 6.3
+                    }
+                },
+
+                {
+                    "Name": "F",
+                    "Grades": {
+                        "Smaller": 1,
+                        "Medium": 1,
+                        "Bigger": 1
+                    }
+                },
+
+                {
+                    "Name": "G",
+                    "Grades": {
+                        "Smaller": 1,
+                        "Medium": 1,
+                        "Bigger": 1
+                    }
+                },
+
+                {
+                    "Name": "H",
+                    "Grades": {
+                        "Smaller": 7.8,
+                        "Medium": 8.3,
+                        "Bigger": 8.6
+                    }
+                },
+
+                {
+                    "Name": "I",
+                    "Grades": {
+                        "Smaller": 8.7,
+                        "Medium": 8.8,
+                        "Bigger": 9
+                    }
+                },
+
+                {
+                    "Name": "J",
+                    "Grades": {
+                        "Smaller": 8.9,
+                        "Medium": 9.2,
+                        "Bigger": 9.6
+                    }
+                }
+            ]
+        },
+
+        {
+            "Criterion": "C4",
+            "Weight": 0.4,
+            "Alternatives":[
+                {
+                    "Name": "A",
+                    "Grades": {
+                        "Smaller": 6.4,
+                        "Medium": 7.1,
+                        "Bigger": 7.2
+                    }
+                },
+
+                {
+                    "Name": "B",
+                    "Grades": {
+                        "Smaller": 7.6,
+                        "Medium": 8.2,
+                        "Bigger": 9.1
+                    }
+                },
+
+                {
+                    "Name": "C",
+                    "Grades": {
+                        "Smaller": 5.2,
+                        "Medium": 5.9,
+                        "Bigger": 6.3
+                    }
+                },
+
+                {
+                    "Name": "D",
+                    "Grades": {
+                        "Smaller": 7,
+                        "Medium": 7.5,
+                        "Bigger": 8
+                    }
+                },
+
+                {
+                    "Name": "E",
+                    "Grades": {
+                        "Smaller": 6.1,
+                        "Medium": 6.5,
+                        "Bigger": 7.2
+                    }
+                },
+
+                {
+                    "Name": "F",
+                    "Grades": {
+                        "Smaller": 3.5,
+                        "Medium": 3.8,
+                        "Bigger": 4
+                    }
+                },
+
+                {
+                    "Name": "G",
+                    "Grades": {
+                        "Smaller": 8.6,
+                        "Medium": 8.9,
+                        "Bigger": 9.1
+                    }
+                },
+
+                {
+                    "Name": "H",
+                    "Grades": {
+                        "Smaller": 4,
+                        "Medium": 4.3,
+                        "Bigger": 4.5
+                    }
+                },
+
+                {
+                    "Name": "I",
+                    "Grades": {
+                        "Smaller": 6.6,
+                        "Medium": 6.8,
+                        "Bigger": 7
+                    }
+                },
+
+                {
+                    "Name": "J",
+                    "Grades": {
+                        "Smaller": 2.6,
+                        "Medium": 3,
+                        "Bigger": 3.2
+                    }
+                }
+            ]
+        }
+    ]
+}
