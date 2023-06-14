@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import json
 import sys
+import requests
 sys.path.append("C:/Users/ACER/Desktop/Pasta AV/Inatel/Fetin-2023-Backend")
 from Functions.SkPart1 import *
 from Functions.Sk import *
@@ -74,10 +75,38 @@ for i in range(len(result)):
             alternatives.append(alternative)
 
 print(alternatives)
-            
+print(sorted_result)
+
+ranking = {"ranking":[]}
+
+for i in range(len(alternatives)):
+    ranking["ranking"].append(
+        {
+            "Alternativa": alternatives[i],
+            "Nota": sorted_result[i]
+        }
+    )
+
+with open("Ranking.json", "w") as arquivo:     
+    json.dump(ranking, arquivo, indent=4)
 
 
 
+#Interação com o firebase
+link = "https://fortis-criteris-default-rtdb.firebaseio.com/"
+
+# Salvando entrada (POST)
+dados = data
+requisicao = requests.post(f'{link}/Data/.json', data=json.dumps(dados))
+print(requisicao)
+print(requisicao.text)
+
+
+# Salvando saída (POST)
+dados = ranking
+requisicao = requests.post(f'{link}/Results/.json', data=json.dumps(dados))
+print(requisicao)
+print(requisicao.text)
 
 
 
