@@ -1,0 +1,38 @@
+{
+    "Criteria":[
+        {
+            "Criterion": "CPU",
+            "Weight": 6,
+            "Alternatives":[
+                {
+                    "Name": "Acer",
+                    "Grade": 9
+                },
+
+                {
+                    "Name": "Asus",
+                    "Grade": 7
+                }
+
+                
+            ]
+        },
+
+        {
+            "Criterion": "RAM",
+            "Weight": 4,
+            "Alternatives":[
+                {
+                    "Name": "Acer",
+                    "Grade": 6
+                },
+
+                {
+                    "Name": "Asus",
+                    "Grade": 8
+                }
+            ]
+        }
+        
+    ]
+}
