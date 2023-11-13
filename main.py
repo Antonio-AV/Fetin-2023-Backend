@@ -11,13 +11,13 @@ from Functions.Qk.QkFinal import *
 from Functions.Fuzzy.FuzzyToNormal import *
 
 
-test = open('test.json')
+test = open('criterion.json')
 
 data = json.load(test)
 
 
-nCriterios = len(data["Criteria"])
-nAlternatives = len(data["Criteria"][0]["Alternatives"])
+nCriterios = len(data["criteria"])
+nAlternatives = len(data["criteria"][0]["alternatives"])
 v = 0.5
 
 
@@ -26,10 +26,10 @@ retSkPart1 = []
 for i in range(nCriterios):
     grades = []
     for j in range(nAlternatives):
-        grade = data["Criteria"][i]["Alternatives"][j]["Grade"]
-        smaller = grade - (0.1 * grade)
-        medium = grade
-        bigger = grade + (0.1 * grade)
+        grade = data["criteria"][i]["alternatives"][j]["note"]
+        smaller = grade[0]
+        medium = grade[1]
+        bigger = grade[2]
 
         if smaller < 0:
             smaller = 0
@@ -41,7 +41,7 @@ for i in range(nCriterios):
         grades.append(medium)
         grades.append(bigger)
     print(grades)
-    weights = data["Criteria"][i]["Weight"]
+    weights = data["criteria"][i]["weight"]
     weights = 0.1 * weights
     ret = skPart1(grades, weights)
     retSkPart1.append(ret)
@@ -82,7 +82,7 @@ alternatives = []
 for i in range(len(result)):
     for j in range(len(sorted_result)):
         if result[j] == sorted_result[i]:
-            alternative = data["Criteria"][0]["Alternatives"][j]["Name"]
+            alternative = data["criteria"][0]["alternatives"][j]["name"]
             alternatives.append(alternative)
 
 print(alternatives)
