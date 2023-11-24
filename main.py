@@ -11,7 +11,7 @@ from Functions.Qk.QkFinal import *
 from Functions.Fuzzy.FuzzyToNormal import *
 
 
-test = open('criterion.json')
+test = open('new_json.json')
 
 data = json.load(test)
 
@@ -40,7 +40,7 @@ for i in range(nCriterios):
         grades.append(smaller)
         grades.append(medium)
         grades.append(bigger)
-    print(grades)
+    
     weights = data["criteria"][i]["weight"]
     weights = 0.1 * weights
     ret = skPart1(grades, weights)
@@ -73,6 +73,7 @@ for i in range(retSkPart1.shape[1]):
 
 #Trabalhando com a função Qk
 notasQk = qkFinal(v, retSk, retRk)
+
 
 #Convertendo de fuzzy para normal
 result = fuzzyToNormal(notasQk)
