@@ -1,5 +1,3 @@
-import numpy as np
-import pandas as pd
 import json
 import sys
 import requests
@@ -10,20 +8,9 @@ from Functions.Rk import *
 from Functions.Qk.QkFinal import *
 from Functions.Fuzzy.FuzzyToNormal import *
 
-
-#test = open('criterion_Guilherme.json')
-
-#data = json.load(test)
-
 def calculo(data_input):
 
-    #print(f'Tipo do dado recebido: {type(data)}')
-    #print(f'Data sem o dumps: {data}')
     data = json.loads(data_input)
-    #print(type(dataD))
-    #print(f'Dado recebido e feito dumps: {dataD}')
-    #data = json.
-
     nCriterios = len(data["criteria"])
     print(nCriterios)
     nAlternatives = len(data["criteria"][0]["alternatives"])
@@ -104,9 +91,6 @@ def calculo(data_input):
         )
 
     json_final = json.dumps(ranking)
-    # print(f'\nRanking: {json_final}')
-    # with open("Ranking.json", "w") as arquivo:
-    #     json.dump(ranking, arquivo, indent=4)
 
     # Interação com o firebase
     link = "https://fortis-criteriis-default-rtdb.firebaseio.com/"
@@ -123,6 +107,5 @@ def calculo(data_input):
     requisicao = requests.post(f'{link}/Results/.json', data=json.dumps(dados))
     print(requisicao)
     print(requisicao.text)
-
 
     return json_final
