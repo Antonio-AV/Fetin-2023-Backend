@@ -1,0 +1,166 @@
+{
+  "criteria": [
+    {
+      "criterionName": "Risco",
+      "weight": 0.4,
+      "alternatives": [
+        {
+          "name": "A",
+          "note": [
+            8,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "B",
+          "note": [
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "C",
+          "note": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "name": "D",
+          "note": [
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "name": "E",
+          "note": [
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "name": "F",
+          "note": [
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "criterionName": "Competitivo",
+      "weight": 0.3,
+      "alternatives": [
+        {
+          "name": "A",
+          "note": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "name": "B",
+          "note": [
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "name": "C",
+          "note": [
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "name": "D",
+          "note": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "E",
+          "note": [
+            6,
+            9,
+            10
+          ]
+        },
+        {
+          "name": "F",
+          "note": [
+            2,
+            3,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "criterionName": "Potencial_Mercado",
+      "weight": 0.3,
+      "alternatives": [
+        {
+          "name": "A",
+          "note": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "name": "B",
+          "note": [
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "name": "C",
+          "note": [
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "name": "D",
+          "note": [
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "name": "E",
+          "note": [
+            8,
+            10,
+            10
+          ]
+        },
+        {
+          "name": "F",
+          "note": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  ]
+}
